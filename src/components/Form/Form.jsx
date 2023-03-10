@@ -10,45 +10,33 @@ const Form = () => {
         sx={{
           height: "100vh",
           padding: "2rem",
-          boxShadow: "5px 5px 10px rgba(0,0,0,0.5)",
+          boxShadow: "5px 5px 10px rgba(0,0,0,0.1)",
         }}
       >
         <Button
-          sx={{ display: "block" }}
-          style={{
-            backgroundColor: active === "Personal" ? "red" : null,
-            color: active === "Personal" ? "#fff" : null,
-          }}
+          variant={active === "Personal" ? "outlined" : "string"}
+          sx={{textAlign:"left", display: "block", width: "100%" }}
           onClick={() => setActive("Personal")}
         >
           Personal info
         </Button>
         <Button
-          sx={{ display: "block" }}
-          style={{
-            backgroundColor: active === "Work" ? "red" : null,
-            color: active === "Work" ? "#fff" : null,
-          }}
+          variant={active === "Work" ? "outlined" : "string"}
+          sx={{textAlign:"left", display: "block", width: "100%" }}
           onClick={() => setActive("Work")}
         >
           Work Experiance
         </Button>
         <Button
-          sx={{ display: "block" }}
-          style={{
-            backgroundColor: active === "Education" ? "red" : null,
-            color: active === "Education" ? "#fff" : null,
-          }}
+          variant={active === "Education" ? "outlined" : "string"}
+          sx={{textAlign:"left", display: "block", width: "100%" }}
           onClick={() => setActive("Education")}
         >
           Education
         </Button>
         <Button
-          sx={{ display: "block" }}
-          style={{
-            backgroundColor: active === "Skills" ? "red" : null,
-            color: active === "Skills" ? "#fff" : null,
-          }}
+          variant={active === "Skills" ? "outlined" : "string"}
+          sx={{textAlign:"left", display: "block", width: "100%" }}
           onClick={() => setActive("Skills")}
         >
           Key Skills
