@@ -1,4 +1,4 @@
-export const data = {
+const data = {
     personal_info: {
         first_name: "John",
         last_name: "Doe",
@@ -27,12 +27,15 @@ export const data = {
             end_year: "2022",
         },
     ],
-    education_details: {
+    education_details: [{
         type: "Post Graduation",
         university: "IIT Delhi",
         degree: "B.Tech",
         start_year: "2018",
         end_year: "2022",
-    },
+    }],
     key_skills: ["Javascript", "React.js", "Next.js", "Tailwind", "Node.js", "MongoDB"],
 };
+
+
+export const { personal_info, work_experience, education_details, key_skills } = data;
