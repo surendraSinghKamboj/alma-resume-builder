@@ -6,7 +6,7 @@ const DetailsFillingPage = () => {
   return (
     <Box >
         <Paper elevation={'5'} sx={{
-            padding:'15px',
+            padding:'25px',
             
         }}   >
         <PersonalInfo/> 

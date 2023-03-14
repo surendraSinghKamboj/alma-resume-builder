@@ -1,7 +1,7 @@
 import { Box, Button, Divider, InputAdornment } from '@mui/material'
 import React from 'react'
 import TextFields from '../input_components/TextFields'
-import DeleteIcon from '@mui/icons-material/Delete';
+import KeyboardReturnOutlinedIcon from '@mui/icons-material/KeyboardReturnOutlined';
 import SendIcon from '@mui/icons-material/Send';
 
 const PersonalInfo = () => {
@@ -92,8 +92,8 @@ const PersonalInfo = () => {
 
 
     }}>
-        <Button variant="outlined" startIcon={<DeleteIcon />}>
-  Delete
+        <Button variant="outlined" startIcon={<KeyboardReturnOutlinedIcon />}>
+  Return
 </Button>
 <Button variant="contained" endIcon={<SendIcon />}>
   Next

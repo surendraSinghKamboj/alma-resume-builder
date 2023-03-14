@@ -4,7 +4,7 @@ import DetailsFillingPage from "./pages/DetailsFillingPage";
 
 function App() {
   return (
-   <Container
+   <Container maxWidth='xl'
     sx={{
       display:'flex',
       flexDirection:'column',
