@@ -1,11 +1,10 @@
-
 import { Container } from "@mui/material";
-import Form from "./components/Form/Form";
+import DetailsFillingPage from "./pages/DetailsFillingPage";
+
 
 function App() {
   return (
-    <>
-       <Container
+   <Container
     sx={{
       display:'flex',
       flexDirection:'column',
@@ -14,11 +13,10 @@ function App() {
 
   }}
    >
-      <Form />
+
+    <DetailsFillingPage/>
 
    </Container>
-      
-    </>
   );
 }
 
