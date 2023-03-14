@@ -1,10 +1,11 @@
-import { Container } from "@mui/material";
-import DetailsFillingPage from "./pages/DetailsFillingPage";
 
+import { Container } from "@mui/material";
+import Form from "./components/Form/Form";
 
 function App() {
   return (
-   <Container
+    <>
+       <Container
     sx={{
       display:'flex',
       flexDirection:'column',
@@ -13,10 +14,12 @@ function App() {
 
   }}
    >
-
-    <DetailsFillingPage/>
+<Coriana />
+      <Form />
 
    </Container>
+      
+    </>
   );
 }
 
