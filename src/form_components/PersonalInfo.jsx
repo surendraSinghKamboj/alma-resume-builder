@@ -6,7 +6,7 @@ import SendIcon from '@mui/icons-material/Send';
 
 const PersonalInfo = () => {
   return (
-    <Box marginX={'auto'} marginY={'auto'} sx={{
+    <Box  sx={{
 
 
     }}  > 
@@ -14,6 +14,7 @@ const PersonalInfo = () => {
     sx={{
         display:"flex",
         alignItems:'center',
+        justifyContent:'space-between',
         gap:"15px",
 
     }}>
@@ -32,6 +33,7 @@ const PersonalInfo = () => {
     sx={{
         display:"flex",
         alignItems:'center',
+        justifyContent:'space-between',
         gap:"15px",
         
     }}>
@@ -56,6 +58,7 @@ const PersonalInfo = () => {
     sx={{
         display:"flex",
         alignItems:'center',
+        justifyContent:'space-between',
         gap:"15px",
 
 
